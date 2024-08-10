@@ -66,3 +66,26 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.form-div{
+  background-color: #ffffff;
+  color: #1a1a1a;
+  /* height: 85vh; */
+  padding: 2rem;
+
+  .error{
+    background-color: #d81e1e;
+    color: #ffffff;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+
+  input{
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border-color: #242424;
+    color: #1a1a1a;
+  }
+}
